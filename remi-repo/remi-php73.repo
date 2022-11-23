@@ -1,0 +1,11 @@
+# This repository only provides PHP 7.3 and its extensions
+# NOTICE: common dependencies are in "remi-safe"
+
+[remi-php73]
+name=Remi's PHP 7.3 RPM repository for Enterprise Linux 7 - $basearch
+baseurl=http://repo1.dal.innoscale.net/remi/php73/$basearch/
+#mirrorlist=https://rpms.remirepo.net/enterprise/7/php73/httpsmirror
+mirrorlist=http://repo1.dal.innoscale.net/remi/enterprise/7/php73/mirror
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi

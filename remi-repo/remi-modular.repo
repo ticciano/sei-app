@@ -1,0 +1,13 @@
+# Repository: https://rpms.remirepo.net/
+# Blog:       https://blog.remirepo.net/
+# Forum:      https://forum.remirepo.net/
+
+[remi-modular]
+name=Remi's Modular repository for Enterprise Linux 7 - $basearch
+#baseurl=http://rpms.remirepo.net/enterprise/7/modular/$basearch/
+#mirrorlist=https://rpms.remirepo.net/enterprise/7/modular/httpsmirror
+mirrorlist=http://cdn.remirepo.net/enterprise/7/modular/mirror
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi
+
