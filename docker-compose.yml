@@ -1,0 +1,9 @@
+version: '2'
+services:
+
+    sei-app:
+        image: ghcr.io/ticciano/sei-app:master
+        entrypoint: "/entrypoint.sh"
+        ports:
+        - 80:80
+        - 443:443

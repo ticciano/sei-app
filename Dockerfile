@@ -11,7 +11,8 @@ ADD https://github.com/cadumsx/sei-docker-binarios/raw/main/pacoteslinux/msttcor
     #https://github.com/spbgovbr/sei-docker-binarios/raw/main/pacoteslinux/libsodium-1.0.18-stable.tar.gz /sei/instaladores/
     
 
-COPY remi-repo/* /etc/yum.repos.d/
+# Descomentar caso os repositorios europeus estejam bloqueados no firewall
+# COPY remi-repo/* /etc/yum.repos.d/
 
 ADD files/ /sei/files/
     
