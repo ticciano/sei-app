@@ -1,6 +1,4 @@
 FROM centos:7
-# FROM centos7:0.2
-
 
 ENV TERM xterm
 
