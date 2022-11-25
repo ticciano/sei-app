@@ -14,6 +14,8 @@ ADD https://github.com/cadumsx/sei-docker-binarios/raw/main/pacoteslinux/msttcor
 # Descomentar caso os repositorios europeus estejam bloqueados no firewall
 # COPY remi-repo/* /etc/yum.repos.d/
 
+COPY prometheus/node_exporter /usr/local/bin/
+
 ADD files/ /sei/files/
     
 RUN bash /sei/files/install.sh
