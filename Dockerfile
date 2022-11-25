@@ -25,3 +25,4 @@ RUN cp /sei/files/scripts-e-automatizadores/entrypoint.sh / && \
 
 EXPOSE 80
 EXPOSE 443
+EXPOSE 9100
