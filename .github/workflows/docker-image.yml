@@ -15,5 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag sei-app:0.1
-      #run: docker build . --file Dockerfile --tag sei-app:$(date +%s)
+      run: docker build . --file Dockerfile --tag sei-app:$(date +%s)
